@@ -14,4 +14,20 @@
         android:layout_height="wrap_content"
         android:text="@string/hello_world" />
 
+    <android.support.v7.widget.AppCompatCheckBox
+        android:id="@+id/checkbox_sleep"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="睡觉模式"
+        android:layout_below="@id/text_accessibility_status"
+        />
+    <android.support.v7.widget.AppCompatCheckBox
+        android:id="@+id/checkbox_owner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="自己模式"
+        android:layout_below="@id/checkbox_sleep"
+        />
+
+
 </RelativeLayout>
